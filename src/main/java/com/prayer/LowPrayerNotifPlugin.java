@@ -52,7 +52,7 @@ public class LowPrayerNotifPlugin extends Plugin
 					config.getPrayerWarningText(),
 					new String[0],
 					config.getPrayerOverlayColour(),
-					config.getPrayerNotifyTime()
+					1
 			);
 		}
 	}

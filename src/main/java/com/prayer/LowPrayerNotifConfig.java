@@ -49,15 +49,4 @@ public interface LowPrayerNotifConfig extends Config
 	default Color getPrayerOverlayColour() {
 		return new Color(0.0f, 0.0f, 1.0f, 0.25f);
 	}
-
-	@ConfigItem(
-			keyName = "prayerNotifyTime",
-			name = "Prayer Notify Time",
-			description = "How many seconds the prayer notification lasts",
-			position = 5,
-			section = prayerSettings
-	)
-	default int getPrayerNotifyTime() {
-		return 0;
-	}
 }
